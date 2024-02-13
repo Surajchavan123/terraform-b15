@@ -7,5 +7,5 @@ resource "aws_instance" "my_resource" {
     key_name = "my-ohio-key"
     tags = {
         Name = "my_instance"
-    }
+    } 
 }
